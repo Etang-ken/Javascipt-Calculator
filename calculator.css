@@ -1,0 +1,76 @@
+body{
+    background: rgb(212, 207, 207);
+    font-family: arial;
+}
+.calculatorHead{
+    color: blue;
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+}
+.calculatorBody{
+    width: 25%;
+    height: auto;
+    margin: 0 auto;
+    background: gray;
+    
+}
+.calculatorScreen{
+    padding: 10px;
+   
+}
+.calculatorScreen .seccond{
+    background: white;
+    color: black;
+    margin: 0 auto;
+    width: 90%;
+    height:60px;
+    align-items: center
+}
+.button1, .button2, .button3, .plusSign{
+    width: 22%;
+    height: 50px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.firstRow, .secondRow, .thirdRow, .fourthRow, .fifthRow{
+    width: 100%;
+    padding: 15px;
+    align-items: center;
+    height: auto;
+    
+}
+.button4, .button5, .button6, .minusSign{
+    width: 22%;
+    height: 50px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.button7, .button8, .button9, .multiplySign{
+    width: 22%;
+    height: 50px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.equal, .button0, .buttonpoint, .divideSign{
+    width: 22%;
+    height: 50px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.equal{
+    font-size: 1.7em;
+}
+.fifthRow{
+    display: flex;
+    justify-content: center;
+}
+.clear{
+    width: 22%;
+    height: 50px;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+/* .buttonpoint{
+    font-size: 1.8em;
+} */
